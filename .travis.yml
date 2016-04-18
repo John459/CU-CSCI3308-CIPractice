@@ -1,4 +1,4 @@
 language: c
-install: make all
-compiler:
-	-gcc
+sudo: false
+script:
+	- make all
